@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/ziyad-tarek1/flappy-bird-game.git
+    repoURL: https://github.com/ziyad-tarek1/Youtube-dowenlader.git
     targetRevision: HEAD
     path: k8s
 
