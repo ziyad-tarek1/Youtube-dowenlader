@@ -38,8 +38,9 @@ This project is a simple YouTube downloader built with Flask and `yt-dlp`, desig
 if you want to presist the data use VP as showen below 
          ```bash
          docker run -p 5000:5000 -v /path/on/host/downloads:/app/downloads yt-downloader
+         ```bash
           sudo chown -R $(whoami):$(whoami) /home/$(whoami)/Downloads
-          ```
+         ```
 4. **Access the application:**
 
 Open your web browser and navigate to http://localhost:5000.
