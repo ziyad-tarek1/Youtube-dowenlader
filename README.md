@@ -1,12 +1,3 @@
-
-## Note the data will be found in /app/downloads
-if you want to presist the data use VP as showen below 
-docker run -p 5000:5000 -v /path/on/host/downloads:/app/downloads yt-downloader
-
-
-sudo chown -R $(whoami):$(whoami) /home/ziad/Downloads
-
-
 # YouTube Downloader with Flask & Docker
 
 This project is a simple YouTube downloader built with Flask and `yt-dlp`, designed to allow users to download single videos or entire playlists from YouTube. The application is containerized with Docker for easy deployment and scaling.
@@ -44,6 +35,7 @@ docker run -d -p 5000:5000 youtube-downloader
 ## Note the data will be found in /app/downloads
 if you want to presist the data use VP as showen below 
 docker run -p 5000:5000 -v /path/on/host/downloads:/app/downloads yt-downloader
+sudo chown -R $(whoami):$(whoami) /home/ziad/Downloads
 
 4. **Access the application:**
 
