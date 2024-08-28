@@ -22,14 +22,15 @@ This project is a simple YouTube downloader built with Flask and `yt-dlp`, desig
 
    ```bash
    git clone https://github.com/ziyadtarek99/Youtube-dowenlader.git
-   cd Youtube-dowenlader
+   cd Docker
 2. **Build the Docker image:**
-
-docker build -t youtube-downloader .
+   ```bash
+   docker build -t youtube-downloader .
 
 3. **Run the Docker container:**
 
-docker run -d -p 5000:5000 youtube-downloader
+    ```bash
+   docker run -d -p 5000:5000 youtube-downloader
 
 
 ## Note the data will be found in /app/downloads
